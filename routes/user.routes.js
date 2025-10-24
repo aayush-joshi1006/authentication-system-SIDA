@@ -1,4 +1,5 @@
 import express from "express";
+import { protect } from "../middlewares/user.middlewares";
 
 const userRoutes = express.Router();
 
